@@ -14,4 +14,4 @@ ZQM Computing — zqmcomputing@gmail.com
 
 ## Support
 
-Development is funded commercially — see the toolkit's [FUNDING](https://github.com/ZQM-Computing/zqm-attestation-toolkit/blob/main/.github/FUNDING.yml) for sponsorship, procurement, and no-KYC options. You can also [sponsor ZQM-Computing on GitHub](https://github.com/sponsors/ZQM-Computing).
+Development is funded commercially — see the toolkit's [FUNDING](https://github.com/ZQM-Labs/zqm-attestation-toolkit/blob/main/.github/FUNDING.yml) for sponsorship, procurement, and no-KYC options. You can also [sponsor ZQM-Computing on GitHub](https://github.com/sponsors/ZQM-Computing).
