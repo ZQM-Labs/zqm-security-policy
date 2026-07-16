@@ -1,14 +1,17 @@
-# ZQM Security Policy Samples
+# ZQM-Computing security policy
 
-Sample policy documents aligned with the ZQM attestation toolkit control set.
-Templates are intentionally generic; they contain no org-specific attributes, host references, or internal metadata.
+[![Sponsor ZQM-Computing](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&color=red&logo=githubsponsors&link=https://github.com/sponsors/ZQM-Computing)](https://github.com/sponsors/ZQM-Computing)
 
-Files
-- `policies/endpoint_security_policy.md` — baseline Windows endpoint controls
-- `policies/change_control_policy.md` — firmware, OS, and baseline change discipline
-- `runbooks/incident_response.md` — condensed IR flow tied to attestation evidence
+Baseline Windows endpoint posture rules and policy checks aligned to common endpoint-model requirements. Use these rules to compare actual host settings against documented controls before, during, and after an attestation engagement.
 
-Guidelines
-- Copy-paste-ready baseline templates.
-- Replace bracketed placeholders only; do not commit substitutions.
-- Review with your security/compliance team before use.
+## Usage
+
+Reference/ruleset documents. Apply them with the attestation toolkit or your own implementation.
+
+## Contact
+
+ZQM Computing — zqmcomputing@gmail.com
+
+## Support
+
+Development is funded commercially — see the toolkit's [FUNDING](https://github.com/ZQM-Labs/zqm-attestation-toolkit/blob/main/.github/FUNDING.yml) for sponsorship, procurement, and no-KYC options. You can also [sponsor ZQM-Computing on GitHub](https://github.com/sponsors/ZQM-Computing).
