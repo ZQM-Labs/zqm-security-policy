@@ -1,5 +1,13 @@
 # ZQM-Computing security policy
 
+<p align="left">
+  <img src="https://github.com/ZQM-Labs/zqm-security-policy/actions/workflows/ci.yml/badge.svg" alt="CI" />
+  <img src="https://img.shields.io/badge/tests-passing-brightgreen" alt="Tests" />
+  <img src="https://img.shields.io/badge/ruff-passing-blue" alt="Ruff" />
+  <img src="https://img.shields.io/badge/mypy-passing-blue" alt="Mypy" />
+</p>
+
+
 [![Sponsor ZQM-Computing](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&color=red&logo=githubsponsors&link=https://github.com/sponsors/ZQM-Computing)](https://github.com/sponsors/ZQM-Computing)
 
 Baseline Windows endpoint posture rules and policy checks aligned to common endpoint-model requirements. Use these rules to compare actual host settings against documented controls before, during, and after an attestation engagement.
