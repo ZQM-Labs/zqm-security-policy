@@ -25,3 +25,11 @@ This repository is free for personal and audit use under its stated license. Ent
 - Contact: zqmcomputing@gmail.com
 
 All deliverables are CMS-signed and independently verifiable.
+
+## Related Repositories
+
+- [ZQM-Labs/zqm-attestation-toolkit](https://github.com/ZQM-Labs/zqm-attestation-toolkit) — Windows attestation, BitLocker, TPM, DFIR
+- [ZQM-Labs/pqc-readiness-toolkit](https://github.com/ZQM-Labs/pqc-readiness-toolkit) — post-quantum cryptography readiness for Windows
+- [ZQM-Labs/zqm-shield](https://github.com/ZQM-Labs/zqm-shield) — endpoint security and compliance controls for Windows
+- [ZQM-Labs/zqm-public-tools](https://github.com/ZQM-Labs/zqm-public-tools) — open-source Windows security, DFIR, and PowerShell utilities
+- [ZQM-Computing/mesh-forensics](https://github.com/ZQM-Computing/mesh-forensics) — ZQM LAN evidence collection and incident response
