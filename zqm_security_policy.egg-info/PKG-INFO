@@ -1,0 +1,50 @@
+Metadata-Version: 2.4
+Name: zqm-security-policy
+Version: 0.1.0
+Summary: ZQM-Computing security policy
+Author-email: Alex Zelenski <zqmcomputing@gmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/ZQM-Labs/zqm-security-policy
+Project-URL: Repository, https://github.com/ZQM-Labs/zqm-security-policy.git
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: zqm-intel-platforms>=0.1.0
+Dynamic: license-file
+
+# ZQM-Computing security policy
+
+[![Sponsor ZQM-Computing](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&color=red&logo=githubsponsors&link=https://github.com/sponsors/ZQM-Computing)](https://github.com/sponsors/ZQM-Computing)
+
+Baseline Windows endpoint posture rules and policy checks aligned to common endpoint-model requirements. Use these rules to compare actual host settings against documented controls before, during, and after an attestation engagement.
+
+## Usage
+
+Reference/ruleset documents. Apply them with the attestation toolkit or your own implementation.
+
+## Contact
+
+ZQM Computing — zqmcomputing@gmail.com
+
+## Support
+
+Development is funded commercially — see the toolkit's [FUNDING](https://github.com/ZQM-Labs/zqm-attestation-toolkit/blob/main/.github/FUNDING.yml) for sponsorship, procurement, and no-KYC options. You can also [sponsor ZQM-Computing on GitHub](https://github.com/sponsors/ZQM-Computing).
+
+## Commercial Licensing & Procurement
+
+This repository is free for personal and audit use under its stated license. Enterprise procurement, retainers, and add-on tiers are available:
+
+- Pricing & SKUs: [COMMERCIAL.md](COMMERCIAL.md) · [SKU_CATALOG.md](SKU_CATALOG.md)
+- Start a purchase: open a [Purchase request](https://github.com/ZQM-Labs/zqm-security-policy/issues/new?template=purchase_request.yml) issue
+- Contact: zqmcomputing@gmail.com
+
+All deliverables are CMS-signed and independently verifiable.
+
+## Integration: zqm-intel-platforms
+
+This repo is part of the `zqm-intel-platforms` stack. It declares `zqm-intel-platforms>=0.1.0` and routes shared OSINT/CTI/SIEM/Windows-telemetry primitives through the platform hub.
+
+- `zqm-intel-platforms` README: https://github.com/ZQM-Labs/zqm-intel-platforms
+- Hub role: shared dependency and normalization layer for fleet attestation, telemetry, and evidence packaging.
+
+Do not vendor `zqm-intel-platforms` internals; consume its public interfaces only. When extending this repo, update `dependencies` and this section together so procurement and provenance stay aligned.
