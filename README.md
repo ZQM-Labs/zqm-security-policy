@@ -25,3 +25,12 @@ This repository is free for personal and audit use under its stated license. Ent
 - Contact: zqmcomputing@gmail.com
 
 All deliverables are CMS-signed and independently verifiable.
+
+## Integration: zqm-intel-platforms
+
+This repo is part of the `zqm-intel-platforms` stack. It declares `zqm-intel-platforms>=0.1.0` and routes shared OSINT/CTI/SIEM/Windows-telemetry primitives through the platform hub.
+
+- `zqm-intel-platforms` README: https://github.com/ZQM-Labs/zqm-intel-platforms
+- Hub role: shared dependency and normalization layer for fleet attestation, telemetry, and evidence packaging.
+
+Do not vendor `zqm-intel-platforms` internals; consume its public interfaces only. When extending this repo, update `dependencies` and this section together so procurement and provenance stay aligned.
